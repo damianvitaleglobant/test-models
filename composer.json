@@ -12,10 +12,12 @@
     },
     "autoload": {
         "classmap": [
-            "src/"
+            "src/",
+            "src/migrations/"
         ],
         "psr-4": {
-            "Globant\\SharedModels\\": "vendors/damianvitaleglobant/test-models/src"
+            "Globant\\SharedModels\\": "vendors/damianvitaleglobant/test-models/src",
+            "Globant\\SharedModels\\Migrations\\": "vendors/damianvitaleglobant/test-models/src/migrations"
         }
     }
 }
