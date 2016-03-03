@@ -8,5 +8,11 @@
 	}
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "fsadmin\\": "app/",
+            "Globant\\SharedModels\\": "vendors/damianvitaleglobant/test-models/src"
+        }
+    }
 }
