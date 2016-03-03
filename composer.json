@@ -19,5 +19,5 @@
         "psr-4": {
             "Globant\\SharedModels\\": "vendors/damianvitaleglobant/test-models/src"
         }
-    },
+    }
 }
