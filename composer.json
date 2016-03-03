@@ -1,0 +1,12 @@
+{
+    "name": "globant/shared-models",
+    "description": "Shared models for different applications",
+    "authors": [
+	{
+	    "name": "Damian Vitale",
+            "email": "damian.vitale@globant.com"
+	}
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
