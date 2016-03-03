@@ -8,7 +8,6 @@
             "email": "damian.vitale@globant.com"
 	}
     ],
-    "minimum-stability": "master",
     "require": {
         "php": ">=5.3.3"
     },
