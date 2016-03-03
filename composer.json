@@ -1,6 +1,7 @@
 {
-    "name": "globant/shared-models",
+    "name": "damianvitaleglobant/shared-models",
     "description": "Shared models for different applications",
+    "homepage": "https://github.com/damianvitaleglobant/test-models",
     "authors": [
 	{
 	    "name": "Damian Vitale",
@@ -8,11 +9,15 @@
 	}
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "php": ">=5.3.3"
+    },
     "autoload": {
+        "classmap": [
+            "src/"
+        ],
         "psr-4": {
-            "fsadmin\\": "app/",
             "Globant\\SharedModels\\": "vendors/damianvitaleglobant/test-models/src"
         }
-    }
+    },
 }
